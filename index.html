@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	
+	<title>Markov Chain Text Generation</title>
+
+	<script type="text/javascript" src="main.js" ></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body id="body">
+ 	<header>
+ 	<h1>Blend-O-Matic X1</h1>
+ 	<h2>Markov Chains and a Fine Selection of Texts combined for Your Pleasure!</h2>
+ 	<p>To start, just select some samples to blend, then hit <b>The Button</b></p>
+ 	</header>
+ 	<div id="maindiv">
+
+	 	<section id="boxes" class="boxes">
+	 	
+	 	</section>
+	 	
+	 	<div id="buttondiv">
+	 		<input id="button" type="button" value="BLEND THAT SHIT!" onclick="runFunc()">
+	 	</div>
+ 		
+ 		<div id="output">
+ 			<textarea id="outputarea" cols="80" rows="15" readonly="true">
+ 			</textarea>
+	 	</div>
+	 	<div id="sliderdiv">
+	 		Depth: Lower = More Scrambled<br/>
+	 		<input id="slider" class="slider" type="range" value="5" defaultValue="5" min="1" max="9" step="1" id="depth">
+	 	</div>
+ 	</div>
+
+ 	<footer>
+ 	<h2>This fine product brought to you by <b> EZRA STALLINGS </b> </h2>
+ 	<hr />
+ 	<i style="font-size:75%">Text found from archive.org, except for Kama Sutra and Malleus Maleficarum.<br/> No offense intended to any persons, living or dead. The views expressed by this foul contraption do not represent those of its creator. <br/> The voices made me do it.</i>
+ 	</footer>
+</body>
+
+</html>
